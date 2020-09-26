@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Locuri cinematograf</title>
+  </head>
+  <body>
+    <label id="ti">Locuri cinematograf</label>
+    <div class="movies-container">
+      <label>Alege un film:</label>
+      <select id="movie">
+        <option value="10">Avangers (10 Ron)</option>
+        <option value="11">Black Panther (11 Ron)</option>
+        <option value="8">Red Sparrow (8 Ron)</option>
+        <option value="7">Hulk (7 Ron)</option>
+      </select>
+    </div>
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Liber</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Ocupat</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selectat</small>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="screen"></div>
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+    <p class="text">
+      Ai selectat <span id="count">0</span> locuri pentru un pret de
+      <span id="total">0</span> RON
+    </p>
+    <script src="main.js"></script>
+  </body>
+</html>
